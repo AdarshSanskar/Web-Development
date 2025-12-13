@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #1a1a1a;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background-color: #eedeff;
+            border-radius: 8px;
+            padding: 30px;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            color: #4b0092;
+            font-size: 40px;
+            text-align: center;
+            margin: 30px;
+            font-weight: bold;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 0.5px solid black;
+            background-color: #d6b3ff;
+            color: Black;
+        }
+
+        button {
+            background-color: #4b0092;
+            border-radius: 5px;
+            color: #eddaff;
+            padding: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            width: 100px;
+            align-self: center;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #3e0077;
+        }
+
+        .name {
+            width: 115px;
+            margin-right: 25px;
+        }
+
+        #user-name {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #login {
+            font-size: 15px;
+            color: grey;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Sign-Up</h2>
+        <form>
+            <div id="user-name">
+                <input type="text" placeholder="First Name" class="name">
+                <input type="text" placeholder="Last Name" class="name">
+            </div>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="Password">
+            <button type="submit">Sign Up</button>
+        </form>
+        <p id="login">Already have a Account? <a href="#">Sign In.</a></p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="card">
+        <form>
+            <h1>Feedback Form</h1>
+            <div id="first-line">
+                <div id="name-field">
+                    <label for="name" class="label">
+                        Name <br>
+                        <input type="text" placeholder="Enter your name" id="name" class="input">
+                    </label>
+                </div>
+                <div id="number-field">
+                    <label for="Mobile" class="label">
+                        Mobile <br>
+                        <input type="tel" placeholder="Enter your Mobile number" id="Mobile" class="input">
+                    </label>
+                </div>
+            </div>
+            <div id="second-line">
+                <div id="email-field">
+                    <label for="email" class="label">
+                        Email
+                        <input type="email" id="email" placeholder="Enter your email" class="input">
+                    </label>
+
+                </div>
+                <div id="topic-field">
+                    <label for="topic" class="label">
+                        Select your Topic
+                        <select name="Topic" id="topic-choice" class="input">
+                            <option value="Service">Service</option>
+                            <option value="Staff">Staff</option>
+                            <option value="Product">Product</option>
+                            <option value="Environment">Environment</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div id="description-field">
+                <label for="description" class="label">Describe Your Experience</label><br>
+                <textarea id="description" class="input" placeholder="Enter Description in Detail"></textarea>
+            </div>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
