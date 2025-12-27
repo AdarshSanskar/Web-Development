@@ -25,6 +25,7 @@
         .nav1 {
             background-color: #fff;
             padding: 10px;
+            border-radius: 5px;
         }
 
         .nav1 ul {
@@ -44,16 +45,17 @@
             color: #000;
             padding: 5px 15px;
             position: relative;
+            font-weight: bold;
         }
 
         .nav1 a::after {
             content: "";
             position: absolute;
-            height: 2px;
+            height: 3px;
             width: 100%;
             bottom: 0;
             left: 0;
-            background-color: #133ab8;
+            background-color: #000000;
             transform: scaleX(0);
             transition: transform 0.3s ease-in-out;
         }
@@ -61,7 +63,7 @@
         .nav1 a:hover::after {
             transform: scaleX(1);
         }
-
+        
         .nav1 .login-btn {
             background-color: #0056f7;
             color: #fff;
@@ -69,13 +71,20 @@
             padding: 5px 15px;
             border-radius: 5px;
             cursor: pointer;
+            font-weight: bold;
         }
 
+        .nav1 .login-btn:hover {
+            background-color: #0041b9;
+        }
 
         .nav2 {
             background-color: #6d0083;
             width: 200px;
             padding: 20px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+
         }
 
         .nav2 ul {
@@ -86,6 +95,7 @@
 
         .nav2 li {
             margin-bottom: 12px;
+            
         }
 
         .nav2 a {
@@ -94,6 +104,7 @@
             display: block;
             padding: 10px;
             width: 100%;
+            font-weight: bold;
         }
 
         .nav2 a:hover {
@@ -107,6 +118,7 @@
             width: 100%;
             padding: 10px;
             cursor: pointer;
+            font-weight: bold;
         }
 
         .nav2 .login-btn:hover {
