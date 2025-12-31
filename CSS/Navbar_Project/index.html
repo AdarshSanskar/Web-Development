@@ -64,7 +64,7 @@
             transform: scaleX(1);
         }
         
-        .nav1 .login-btn {
+        .nav1 .login-btn, .nav3 .login-btn{
             background-color: #0056f7;
             color: #fff;
             border: none;
@@ -124,6 +124,38 @@
         .nav2 .login-btn:hover {
             background-color: #480057;
             border: 1px solid white;
+        }
+
+        .nav3 {
+            background-color: #461f72;
+            padding: 10px;
+        }
+
+        .nav3 ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .nav3 a {
+            text-decoration: none;
+            color: #fff;
+            padding: 10px;
+            display: block;
+        }
+
+        .nav3 .dropdown-content {
+            display: none;
+        }
+
+        .nav3 .dropdown:hover .dropdown-content {
+            display: block;
+            position: absolute;
+            background-color: #2a0f4e;
+            min-width: 150px;
         }
     </style>
 </head>
