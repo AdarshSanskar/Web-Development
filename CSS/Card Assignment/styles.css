@@ -62,20 +62,20 @@ img{
 h1{
     color: #fff;
     text-align: center;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
 }
 
 .content:hover h1{
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
 }
 
 h2{
     color: #fff;
-    transition: transform 0.3s ease;
+    /* transition: transform 0.3s ease; */
 }
 
 .content:hover h2{
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
 }
 
 button{
@@ -92,7 +92,7 @@ button{
 }
 
 .content:hover button{
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
 }
 
 button:hover{
